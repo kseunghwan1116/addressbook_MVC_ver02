@@ -98,6 +98,6 @@ public class PersonDao {
 		FileOutputStream fis = new FileOutputStream(file);
 		ObjectOutputStream oos = new ObjectOutputStream(fis);
 		oos.writeObject(personArr);
-		System.out.println("\n 。。。AUTO SAVE");
+		System.out.println("\n" + name + "。。。AUTO SAVE");
 	}
 }
